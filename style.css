@@ -1,0 +1,1046 @@
+@font-face {
+    font-family: "sofia";
+    src: url(./font/Fonts/sofiapro-light.otf);
+}
+
+body{
+    font-family: "sofia";
+    scrollbar-base-color: #1437bf ;
+   
+}
+
+.navbar{
+position: sticky;
+top: 0px;
+z-index: 10;                  
+}
+
+.head-colour{
+    background-color: #0065c3;
+}
+
+.nav-item{
+  margin-right: 1.5rem;
+  font-weight: 600;
+  font-family: "sofia";
+  cursor: pointer;
+  font-size: .775rem;
+}
+
+.nav-item > a{
+    color: #fff !important;
+}
+
+.navbar-brand{
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+  } 
+
+.pepsi-btn{
+    font-size: 0.8em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    font-family: "sofia";
+    font-weight: bold;
+    background: transparent;
+    color: #fff;
+}
+
+@keyframes tada {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+
+    10%,
+    20% {
+        -webkit-transform: scale3d(.9, .9, .9) rotate(-3deg);
+        transform: scale3d(.9, .9, .9) rotate(-3deg)
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate(3deg)
+    }
+
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg)
+    }
+
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+}
+
+@-webkit-keyframes tada {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+
+    10%,
+    20% {
+        -webkit-transform: scale3d(.9, .9, .9) rotate(-3deg);
+        transform: scale3d(.9, .9, .9) rotate(-3deg)
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate(3deg)
+    }
+
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg)
+    }
+
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+}
+
+
+.pepsi-btn:hover{
+    color: #0065c3;
+    background-color: #fff;
+    -webkit-animation-name: tada;
+    animation-name: tada
+}
+
+
+.logo:hover{
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration: 0.5s;
+}
+
+@-webkit-keyframes rotateIn {
+    0% {
+        -webkit-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+}
+
+@keyframes rotateIn {
+    0% {
+        -webkit-transform: rotate(-200deg);
+        transform: rotate(-200deg);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+}
+
+
+.pepsi-main{
+    background-image: url(./img/background.png);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.pepsi-main-img > img{
+    width: 750px;
+   position: relative;
+   left: -90px;
+   
+}
+
+.pepsi-main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 90px;
+}
+
+
+.body-p1 > p{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    top: 20px;
+}
+
+.body-img > img{
+    width: 400px;
+   
+}
+
+.body-p2 > p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.pepsi-btn2{
+    font-size: 0.8em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    font-family: "sofia";
+    font-weight: bold;
+    background: transparent;
+    color: #fff;
+}
+
+.pepsi-btn2:hover{
+    color: #0065c3;
+    background-color: #fff;
+    -webkit-animation-name: tada;
+    animation-name: tada
+}
+
+.body-p3 > p{
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 50px ;
+}
+
+
+.black-pepsi{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.black-pepsi-img > .pepsi-can{
+    width: 850px;
+    position: relative;
+    left: -90px;
+    top: -55px;
+}
+
+.black-pepsi-img > .sub-img{
+    position: relative;
+    bottom:520px;
+    left: 400px;
+}
+
+.black-pepsi-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;                                            
+    justify-content: center;
+    position: relative;
+    right: 190px;
+}
+
+.body-img4 > img{
+    width: 400px;
+}
+
+.cans{
+    display: flex;
+    justify-content: center;
+}
+
+.cans-child1 > img{
+    position: relative;
+    left: 40px;
+}
+
+.cans-child2 > img{
+    position: relative;
+    left: 40px;
+}
+
+.cans-child1 > p{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    right: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cans-child2 > p{
+    color: #fff;
+    position: relative;
+    right: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.nitro-container{
+    width: 100%;
+    height: 700px;
+    background-image: url(./img/background3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nitro-img > img{
+    width: 480px;
+    position: relative;
+    top: 20px;
+}
+
+.nitro-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nitro-body-img > img{
+    width: 400px;
+}
+
+
+
+.nitro-body-para > p{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+
+
+
+
+.pepsi-btn3{
+    font-size: 1em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    font-family: "sofia";
+    font-weight: bolder;
+    background: transparent;
+    color: #fff;
+}
+
+.pepsi-btn3:hover{
+    color: #0065c3;
+    background-color: #fff;
+    -webkit-animation-name: tada;
+    animation-name: tada
+}
+
+
+.main-container{
+    width: 100%;
+    height: 600px;
+    background-color: #265cc5;
+    overflow-x: hidden;
+}
+
+.image-box{
+    width: 400px;
+  background-color: #1437bf;
+  text-align: center;
+ 
+}
+
+.image-box > div > img{
+    width: 100%;
+}
+
+.image-box > div > h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+    
+}
+
+.image-content{
+    padding: 8px 0px;
+}
+
+
+
+.left-section{
+   
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-section{
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/img9.jpg);
+    background-position: 65% 0;
+}
+
+.right-section > img{
+    width: 50%;
+    position: relative;
+    top: 450px;
+    right: 10px;  
+    left: 450px;  
+   
+}
+
+
+.slider-ss>.ss1{
+    width: 100%;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.pepsi-blue{
+    background-color: #0065c3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 600px;
+}
+
+.pepsi-blue-img>img{
+    width: 600px;
+    position: relative;
+    top: 25px;
+}
+
+.pepsi-blue-body-img > img{
+    width: 500px;
+}
+
+.flavor{
+    width: 100%;
+    height: 600px;
+    background-color: #265cc5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.falvour-body{
+    width: 800px;
+    position: relative;
+    right:-30px;
+}
+
+
+.pepsi-btn4{
+    font-size: 0.9em;
+    padding: 0.5em 1.89em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    font-family: "sofia";
+    font-weight: bold;
+    background: transparent;
+    color: #fff;
+}
+
+.pepsi-btn4:hover{
+    color: #0065c3;
+    background-color: #fff;
+    -webkit-animation-name: tada;
+    animation-name: tada
+}
+
+.flavor-pi1 > p{
+    font-size: 55px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.flavor-pi1{
+    width: 450px;
+}
+
+.flavor-pi2{
+    width: 400px;
+}
+
+.flavor-pi2 > p{
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.links-h1{
+    display: flex;
+    justify-content: center;
+}
+
+.links-h1>h1{
+    font-weight: bold;
+    color: #1437bf;
+}
+
+.links-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.links-img > img{
+    width: 250px;
+    overflow-x: hidden;
+
+}
+
+.links-img > img:hover{
+    /* -webkit-animation-name: zoomIn;
+    animation-name: zoomIn */
+    transform: scale(1.1);
+    transition: ease 1.4s;
+    overflow-y: hidden;
+}
+
+@-webkit-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+ .footer{
+    background-color: #1437bf;
+    width: 100%;
+    height: 300px;
+   display: flex;
+   justify-content: space-between;
+   padding: 30px;
+   align-items: center;
+    
+ }
+
+ .foot1,.foot2,.foot3{
+    /* background-color: black; */
+    width: 250px;
+ }
+
+ .footer-links{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+ .footer-social i{
+    color: #fff;
+    width: 50px;
+    font-size: 35px;
+ }
+
+ .footer-links ul li{
+    list-style: none;
+    color: #fff;
+    font-weight: bold;
+ }
+
+
+/* @media only screen and (max-width:993px){
+    .my-nav{
+        width: 100%;
+    }
+} */
+
+@media only screen and (max-width:1900px){
+
+
+
+
+ .navbar{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.pepsi-main{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.black-pepsi{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.nitro-container{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.main-container{
+    width: 100%;
+    overflow-x: hidden;
+}
+.vid{
+    width: 100%;
+    overflow-x: hidden;
+}
+.slider-ss{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.pepsi-blue{
+    width: 100%;
+    overflow-x: hidden;
+}
+.flavor{
+    width: 100%;
+    overflow-x: hidden;
+}
+.links{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.footer{
+    width: 100%;
+    overflow-x: hidden;
+} 
+} 
+
+@media only screen and (max-width:992px){
+
+
+    
+
+    .footer-links{
+    
+        display: flex;
+        flex-direction: column;
+        
+     }
+
+    
+
+     .footer-links ul li{
+     position: relative;
+     left: 70px;
+     text-align: center;
+     }
+    
+
+    .navbar-collapse{
+        text-align: center;
+        overflow-x: hidden;
+
+    }
+
+    .pepsi-btn{
+        margin-right: 20px;   
+     }
+
+    .pepsi-main{
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        overflow-x: hidden;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+       
+       
+    }
+
+    .pepsi-main-img > img{
+        width: 500px;
+        position: relative;
+        left: -10px;
+    }
+
+    .pepsi-main-body{
+        overflow-y: hidden;
+        position: relative;
+        top: 50px;
+        left: -10px;
+        
+    }
+
+    .body-img > img{
+        width: 300px;
+    }
+
+    .black-pepsi{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 800px;
+        overflow-x: hidden;
+    }
+
+    .black-pepsi-img > .pepsi-can{
+        width: 500px;
+        position: relative;
+        top: -1px;
+        left: -5px;
+        overflow-x: hidden;
+    }
+
+  
+    .black-pepsi-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 5px;
+        top: 60px;
+        overflow-x: hidden;
+    }
+
+  
+
+    .body-img4 > img{
+        width: 200px;
+        overflow-x: hidden;
+        
+    }
+
+    .para1 > img{
+        width: 200px;
+        overflow-x: hidden;
+        
+    }
+
+    .cans{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    }
+
+    .cans-child1 > p{
+        text-align: center;
+        font-size: 10px;
+        overflow-x: hidden;
+    }
+       
+    .cans-child2 > p{
+        text-align: center;
+        font-size: 10px;
+        overflow-x: hidden;
+        position: relative;
+        left: 1px;
+    }
+
+    .cans-child1 > img{
+      width: 200px;
+      overflow-x: hidden;
+      position: relative;
+      left: 10px;
+    }
+
+    .cans-child2 > img{
+        width: 200px;
+        overflow-x: hidden;
+        position: relative;
+        left: 10px;
+      }
+       
+       .nitro-container{
+        display: flex;
+        flex-direction: column-reverse;
+        overflow-x: hidden;
+       }
+
+
+       .nitro-img > img{
+        width: 300px;
+        overflow-x: hidden;
+       }
+
+       .nitro-body-img > img{
+           width: 250px;
+           overflow-y: hidden;
+           overflow-x: hidden;
+       }
+
+       .nitro-body-para > p{
+        font-size: 15px;
+        overflow-x: hidden;
+       }
+
+
+       .slider-ss > .ss1{
+        display: none;
+      }
+      
+      .ss2{
+        width: 100%;
+        height: 500px;
+        background-image: url(./img/ss2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .pepsi-blue{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 900px;
+        overflow-x: hidden;
+      }
+
+      .pepsi-blue-img > img{
+        width: 610px;
+      }
+
+      .pepsi-blue-body-img > img{
+        width: 400px;
+        position: relative;
+        left: 10px;
+      }
+
+.flavor{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.flavor-img > img{
+    /* position: relative;
+    top: 30px; */
+    width: 300px;
+}
+
+.falvour-body{
+ position: relative;
+ left: 5px;
+}
+
+.flavor-pi2{
+    width: 300px;
+    margin: auto;
+}
+
+.flavor-pi1{
+    margin: auto;
+    position: relative;
+    top: 5px;
+}
+
+.flavor-pi1>p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.flavor-pi2>p{
+    font-size: 13px;
+    
+}
+
+.flavor-btn{
+   margin: auto;
+   display: flex;
+   justify-content: center;
+}
+
+.links{
+    overflow-x: hidden;
+}
+
+.links-img img{
+    width: 200px;
+}
+
+
+}
+
+@media only screen and (max-width:930px){
+   .links-img>img{
+    width: 200px;
+   } 
+}
+
+@media only screen and (max-width:880px) {
+    .footer-logo > img{
+        display: none;
+    }
+
+    .footer-social > i{
+        display: none;
+    }
+
+    .footer-links ul li{
+        position: relative;
+        left: -25px;
+    }
+}
+
+@media only screen and (max-width:486px){
+    .links-h1>h1{
+        font-size: 25px;
+    }
+
+    .links-img>img{
+        width: 70px;
+       } 
+}
+
+@media only screen and (max-width:415px){
+    .links-h1>h1{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width:333px){
+    .links-h1>h1{
+        font-size: 16px;
+    }
+
+    .links-img>img{
+        width: 50px;
+       } 
+}
+
+
+ @media only screen and (max-width:366px){
+    
+    .body-p3 > p{
+        font-size: 8px;
+    } 
+
+    .black-pepsi{
+        overflow-x: hidden;
+    }
+
+    .pepsi-blue{
+        height: 700px;
+    }
+
+    .pepsi-blue-img > img{
+        width: 410px;
+        position: relative;
+        top: 60px;
+      }
+
+      .pepsi-blue-body-img > img{
+       
+        width: 300px;
+        position: relative;
+        left: 10px;
+      }
+
+
+
+}
+
+@media only screen and (max-width:770px){
+.main-container{
+    overflow-y: hidden;
+    height: auto;
+}
+.pepsi-section-one{
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: hidden;
+}   
+
+.right-section{
+    height: 300px;
+}
+
+.image-box{
+    width: 100%;
+}
+
+.left-section{
+    padding: 0px 20px ;
+}
+
+.image-box > div > img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+}
+
+
+
+
